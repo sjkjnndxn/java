@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic question and answers</title>
+</head>
+<body>
+    <H1>question and answer</H1>
+</body>
+<script>
+var str1 = "Today is";
+var str2 = "      a beautiful day     ";
+var str3 = " In Hawaii.     ";
+// Result = 'Today is a beautiful day In Hawaii.'
+var Result = `${str1} ${str2.trim()} ${str3.trim()}`;
+console.log(Result);
+
+var  vowel = "u";
+switch (vowel) {
+    case 'a':
+        console.log("This is vowel alphabet");
+        break;
+
+    case 'd':
+        console.log("This is  consonant  alphabet");
+        break;
+
+    case 'h':
+        console.log("This is  consonant  alphabet");
+        break;
+
+    case 'u':
+        console.log("This is vowel alphabet");
+        break;
+
+    case 'o':
+        console.log("This is vowel alphabet");
+        break;
+
+    case 'i':
+        console.log("This is vowel aphabet")
+        break;
+
+    default:
+        console.log("this is not alphabet")
+
+}
+  
+
+var operator = "*"
+
+switch (operator) {
+    case '+':
+        console.log(ans = 3 + 4);
+        break;
+
+    case '-':
+        console.log(ans = 10 - 6);
+        break;
+
+    case '*':
+        console.log(ans = 10 * 2);
+        break;
+
+    case '/':
+        console.log(ans = 9 / 3);
+        break;
+    default:
+        console.log("Error! Enter correct operator");
+
+}
+
+
+var triangle = ("a,b,c");
+
+if (triangle="a == b == c") {
+    console.log("Equilateral Triangle : all sides are equal");
+}
+else if (triangle="a == b or b == c or c == a") {
+    console.log("Isosceles Triangle : two sides  are equal");
+}
+else {
+    console.log("Scalene Triangle : none of its sides are equal");
+}
+
+
+units =295
+bill = 0
+if(units<=50){
+    bill=units*0.5
+}else if(units <=150){
+    bill=50*0.5+(units-50)*0.75
+}else if(units<=250){
+    bill=50*0.5 + 100*0.75 + (units-150)*1.2
+}else if(units>250){
+    bill=50*0.5  + 100*0.75 + 150*1.2 + (units-250)*1.5
+}if (bill>150){
+    bill=bill+bill*0.2
+}
+console.log(bill)
+
+</script>
+</html>
